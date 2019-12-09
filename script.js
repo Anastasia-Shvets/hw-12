@@ -16,12 +16,6 @@ function move(el) {
             }
             this.el.style.transform = transform;
         },
-        decrease: function (scale) {
-            this.move('decrease', scale);
-        },
-        increase: function (scale) {
-            this.move('increase', scale);
-        },
         scale(value) {
             transform = 'scale(' + value + ')';
             this.el.style.transform = transform;
